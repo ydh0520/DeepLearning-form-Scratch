@@ -101,4 +101,5 @@ def testXOR():
     print(XOR(0,1))
     print(XOR(1,1))
 
-testXOR()
+# testXOR()
+
