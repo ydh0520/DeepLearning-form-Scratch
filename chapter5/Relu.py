@@ -17,12 +17,13 @@ class Relu:
         
         return dx
 
-x=np.array([[1.0,-0.5],[-2.0,3.0]])
-print(x)
+def test():
+    x=np.array([[1.0,-0.5],[-2.0,3.0]])
+    print(x)
 
-relutest=Relu()
+    relutest=Relu()
 
-y=relutest.forward(x)
-print(y)
-dx=relutest.backward(y)
-print(dx)
+    y=relutest.forward(x)
+    print(y)
+    dx=relutest.backward(y)
+    print(dx)
