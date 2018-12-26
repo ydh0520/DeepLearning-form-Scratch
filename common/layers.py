@@ -1,6 +1,8 @@
 # coding: utf-8
+import sys,os
+sys.path.append(os.getcwd())
 import numpy as np
-from common.functions import *
+from common.function import *
 from common.util import im2col, col2im
 
 
